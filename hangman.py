@@ -23,7 +23,7 @@ while attempts > 0 and '_' in word_display:
         for index, letter in enumerate(chosen_word):
             if letter == guess:
                 word_display[index] = guess  # Update the display with the correct guess
-        print(f"Good guess! The letter '{guess}' is in the word.")
+        print(f"Good guess!! The letter '{guess}' is in the word.")
     else:
         # If the letter is not in the word, reduce the attempts
         print(f"That letter '{guess}' doesn't appear in the word!")
@@ -34,7 +34,7 @@ while attempts > 0 and '_' in word_display:
     if '_' not in word_display:
         print("\nYou guessed the word!")
         print(''.join(word_display))
-        print("You survived!")
+        print("You survived!!")
         break
 
 # If the player runs out of attempts, show the loss message

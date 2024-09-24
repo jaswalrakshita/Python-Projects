@@ -33,7 +33,7 @@ def run_quiz(questions):
 
         user_ans = input("Enter your answer(A, B, C, or D): ").upper()
         if user_ans == question["answer"]:
-           print("Correct!!\n")
+           print("Correct!!!!\n")
            score += 1
         else:
             print("Not Correct!!. The correct answer is", question["answer"], "\n")
